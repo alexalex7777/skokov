@@ -1,0 +1,919 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../fonts/GOTHIC.TTF"); }
+
+a:hover {
+  text-decoration: none; }
+
+body {
+  background: #d5d9e0; }
+
+header nav .navbar-toggler {
+  outline: none; }
+
+header nav li {
+  text-align: center;
+  color: #000000;
+  font-family: Code;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-transform: uppercase; }
+
+header nav li:hover {
+  background: #ffea00; }
+
+.top {
+  background-image: url(../img/slider-bg.jpg);
+  width: 100%;
+  height: 8rem;
+  position: relative; }
+  .top h2 {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    width: 50%;
+    padding-left: 1rem;
+    color: #ffea00;
+    background: #414146;
+    font-family: "Century Gothic";
+    font-size: 2.188rem;
+    line-height: 4rem;
+    text-transform: uppercase; }
+
+#slider {
+  position: relative;
+  background-image: url(../img/slider-bg.jpg);
+  padding: 1rem;
+  text-align: center; }
+  #slider .text {
+    padding: 2rem 0; }
+    #slider .text h3, #slider .text h4 {
+      color: #000000;
+      font-family: "Century Gothic";
+      font-size: 1.3rem;
+      line-height: 1.5rem;
+      text-transform: uppercase;
+      background: #ffea00; }
+    #slider .text h3 {
+      width: 50%;
+      margin-bottom: 0.4rem; }
+    #slider .text h4 {
+      width: 80%;
+      margin-bottom: 1rem; }
+    #slider .text p {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 0.7rem;
+      background: #414146;
+      width: 70%;
+      margin-bottom: 1rem; }
+    #slider .text a {
+      background: #000000;
+      border-bottom: 0.2rem solid #ffea00;
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 1rem;
+      padding: 0.3rem 1rem; }
+  #slider .photo img {
+    width: 100%;
+    height: 100%; }
+  #slider .left, #slider .right {
+    background: #000000;
+    opacity: 1;
+    top: 40%;
+    width: 2rem;
+    height: 4rem; }
+  #slider .carousel-indicators li {
+    height: 1rem;
+    width: 1rem;
+    border: 0.1rem solid #000000; }
+  #slider .carousel-indicators .active {
+    background: #ffea00; }
+
+#content {
+  text-align: center; }
+  #content h3 {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 1.3rem;
+    line-height: 1.313rem;
+    text-transform: uppercase;
+    margin: 1rem; }
+  #content h4 {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 1rem;
+    line-height: 1.313rem;
+    margin: 1rem; }
+  #content .content-box {
+    margin: 2rem;
+    padding: 0; }
+  #content .img {
+    background: #414146;
+    position: relative; }
+    #content .img img {
+      width: 100%;
+      height: 100%; }
+    #content .img .hover {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      text-align: center;
+      background: #ffea00;
+      width: 100%;
+      padding-top: 18%;
+      opacity: 1;
+      z-index: 2; }
+      #content .img .hover a {
+        font-size: 7rem; }
+      #content .img .hover p {
+        color: #000000;
+        font-family: Code;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        text-transform: uppercase; }
+    #content .img .hover:hover {
+      opacity: 0;
+      -webkit-transition: 1s;
+      transition: 1s; }
+  #content .bottom-name {
+    background: #414146;
+    padding: 1rem 0;
+    position: relative; }
+    #content .bottom-name .name {
+      color: #ffffff;
+      font-family: Code;
+      font-size: 1rem;
+      line-height: 1.438rem;
+      text-transform: uppercase; }
+    #content .bottom-name p {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 0.625rem;
+      line-height: 1.063rem; }
+    #content .bottom-name .yellow {
+      color: #ffea00; }
+    #content .bottom-name .block {
+      display: block; }
+  #content .bottom-name::after {
+    position: absolute;
+    content: '';
+    border: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid #414146;
+    right: 2rem;
+    top: -1.4rem; }
+
+#portfolio {
+  text-align: center; }
+  #portfolio h2 {
+    display: inline;
+    color: #ffea00;
+    font-family: "Century Gothic";
+    font-size: 1.125rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    background: #414146;
+    padding: 0.5rem 1rem; }
+  #portfolio h3 {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 1.3rem;
+    line-height: 1.5rem; }
+  #portfolio .gridd {
+    padding: 1rem; }
+    #portfolio .gridd .gridd-item {
+      width: 33.375rem;
+      height: auto;
+      margin: 0.2rem; }
+    #portfolio .gridd .gridd-item--width2 {
+      width: 16.563rem;
+      height: auto; }
+    #portfolio .gridd .gridd-item--width3 {
+      width: 17.188rem;
+      height: auto; }
+    #portfolio .gridd .gridd-item--width4 {
+      width: 16.563rem;
+      height: auto; }
+
+#clients {
+  text-align: center;
+  width: 100%; }
+  #clients h2 {
+    display: inline;
+    color: #ffea00;
+    font-family: "Century Gothic";
+    font-size: 1.125rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    background: #414146;
+    padding: 0.5rem 1rem; }
+  #clients h3 {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem; }
+  #clients .sliders {
+    max-width: 250px;
+    margin: 1rem auto; }
+
+footer {
+  background: #414146; }
+  footer .about {
+    margin: 0.5rem; }
+    footer .about h4 {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 1.125rem;
+      line-height: 4rem; }
+    footer .about p {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 0.813rem;
+      line-height: 1.313rem;
+      margin-bottom: 1rem; }
+  footer .photo-stream {
+    margin: 0.5rem; }
+    footer .photo-stream h4 {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 1.125rem;
+      line-height: 4rem; }
+    footer .photo-stream p {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 0.813rem;
+      line-height: 1.313rem;
+      margin-bottom: 1rem; }
+    footer .photo-stream .button {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 0.938rem;
+      line-height: 2.375rem;
+      padding: 0.5rem 1rem;
+      background: #000000;
+      border-bottom: 0.2rem solid #ffea00; }
+    footer .photo-stream .galery div {
+      width: 100%;
+      height: auto;
+      margin: 0.5rem 0; }
+  footer .social {
+    margin: 0.5rem; }
+    footer .social h3 {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 1.125rem;
+      line-height: 2rem;
+      margin: 1.5rem 0; }
+    footer .social li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 1.5rem 0; }
+      footer .social li p, footer .social li a {
+        color: #ffffff;
+        font-family: "Century Gothic";
+        font-size: 0.813rem;
+        line-height: 1.313rem; }
+      footer .social li i {
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin-right: 0.5rem; }
+    footer .social span {
+      color: #ffea00; }
+  footer .social-list {
+    margin: 1rem; }
+    footer .social-list span {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 1.125rem;
+      line-height: 2rem; }
+    footer .social-list i {
+      color: #ffffff;
+      background: #000000;
+      padding: 0.2rem; }
+    footer .social-list .facebook {
+      padding: 0.2rem 0.4rem; }
+  footer .contact {
+    color: #ffffff;
+    padding: 0.5rem;
+    margin-bottom: 1rem; }
+    footer .contact h3, footer .contact h4 {
+      font-family: "Century Gothic";
+      font-size: 1.125rem;
+      line-height: 2rem;
+      margin: 1.5rem 0; }
+    footer .contact ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 1rem 0; }
+      footer .contact ul li i {
+        background: #000000;
+        padding: 0.5rem;
+        margin: 0 0.5rem; }
+      footer .contact ul li a {
+        color: #ffea00;
+        font-size: 0.7rem; }
+    footer .contact .mail p {
+      margin: 1rem 0; }
+    footer .contact input {
+      width: 13rem;
+      background: #414146;
+      border: none;
+      border-bottom: 0.2rem solid #ffea00;
+      color: #ffffff;
+      margin: 1rem 0; }
+    footer .contact .button {
+      width: 1.5rem;
+      border: none;
+      margin-left: 0.5rem; }
+  footer .bottom {
+    background: #000000;
+    text-align: center; }
+    footer .bottom p {
+      color: #ffffff;
+      font-family: "Century Gothic";
+      font-size: 0.5rem;
+      line-height: 2rem; }
+    footer .bottom ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      padding: 0.5rem 0.5rem; }
+  footer .bottom ul li a {
+    color: #ffffff;
+    font-family: Code;
+    font-size: 0.6rem;
+    line-height: 2rem;
+    text-transform: uppercase; }
+
+.portfolio-top {
+  background-image: url(../img/slider-bg.jpg);
+  width: 100%;
+  height: 8rem;
+  position: relative; }
+  .portfolio-top h2 {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    width: 50%;
+    padding-left: 1rem;
+    color: #ffea00;
+    background: #414146;
+    font-family: "Century Gothic";
+    font-size: 1.4rem;
+    line-height: 3rem;
+    text-transform: uppercase; }
+
+.portfolio {
+  text-align: center; }
+  .portfolio h2 {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 1.2rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin: 1rem 0; }
+  .portfolio h3 {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 1rem 0; }
+  .portfolio .button {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 1rem;
+    border: 0;
+    outline: 0;
+    background: #d5d9e0; }
+  .portfolio .button:hover {
+    background: #ffea00; }
+  .portfolio .portfolio-box {
+    position: relative;
+    margin: 0.5rem 0; }
+    .portfolio .portfolio-box img {
+      width: 100%; }
+  .portfolio .portfolio-box a {
+    display: none; }
+  .portfolio .portfolio-box:hover a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffea00;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; }
+    .portfolio .portfolio-box:hover a i {
+      margin-top: 20%;
+      background: #000000;
+      padding: 1.5rem;
+      color: #ffffff;
+      font-size: 2rem; }
+
+.blog .title {
+  background: #ffea00;
+  margin: 0.5rem 0;
+  height: 6rem; }
+  .blog .title h2 {
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 1rem;
+    line-height: 1.75rem;
+    padding: 0.3rem; }
+  .blog .title span {
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 0.688rem;
+    line-height: 1.75rem;
+    margin-left: 70%; }
+
+.blog article {
+  margin: 1rem 0;
+  text-align: center; }
+  .blog article img {
+    width: 100%; }
+  .blog article h3 {
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 1.438rem;
+    line-height: 1.875rem;
+    text-transform: uppercase; }
+  .blog article p {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin: 1rem 0; }
+  .blog article .signature {
+    background: #ffea00;
+    padding: 0.5rem;
+    position: relative; }
+  .blog article .signature:hover::after {
+    content: '';
+    position: absolute;
+    border: 1rem solid transparent;
+    border-bottom: 1rem solid #ffea00;
+    right: 4rem;
+    top: -2rem; }
+
+.blog .grid .grid-item {
+  width: 100%; }
+
+.blog .pagination {
+  padding: 1rem 0;
+  margin: 1rem 0; }
+  .blog .pagination a, .blog .pagination li {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    text-transform: uppercase; }
+  .blog .pagination li {
+    margin: 0 0.2rem; }
+  .blog .pagination .three {
+    padding: 0.3rem;
+    background: #ffea00;
+    margin-top: -0.3rem; }
+
+.article {
+  margin: 1rem 0; }
+  .article .article-bottom {
+    background: #ffea00;
+    padding: 1rem 0;
+    position: relative; }
+    .article .article-bottom h3 {
+      color: #000000;
+      font-family: "Century Gothic";
+      font-size: 1rem;
+      line-height: 1rem;
+      text-transform: uppercase;
+      margin-left: 0.8rem; }
+  .article .article-bottom::after {
+    content: '';
+    position: absolute;
+    border: 1rem solid transparent;
+    border-bottom: 1rem solid #ffea00;
+    right: 4rem;
+    top: -2rem; }
+  .article img {
+    width: 100%;
+    height: auto; }
+  .article p {
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin: 1rem 0; }
+  .article .social-items {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.06rem solid #414146; }
+    .article .social-items span {
+      color: #ffea00;
+      font-family: "Century Gothic";
+      font-size: 1rem;
+      line-height: 1rem;
+      text-transform: uppercase;
+      background: #414146;
+      padding: 0.3rem 0; }
+    .article .social-items li {
+      color: #414146;
+      background: #ffea00;
+      font-size: 0.7rem;
+      line-height: 1rem;
+      outline: none;
+      padding-right: 0.3rem; }
+      .article .social-items li i {
+        color: #ffffff;
+        font-size: 0.7rem;
+        line-height: 1rem;
+        background: #000000;
+        padding: 0.3rem; }
+      .article .social-items li .fs {
+        padding: 0.3rem 0.4rem; }
+  .article .post {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.06rem solid #414146; }
+    .article .post h3 {
+      color: #ffea00;
+      font-family: "Century Gothic";
+      font-size: 1rem;
+      line-height: 1rem;
+      text-transform: uppercase;
+      background: #414146;
+      padding: 0.3rem 0;
+      margin-bottom: 2rem; }
+    .article .post img {
+      width: 100%;
+      height: auto; }
+    .article .post .img-post h2 {
+      color: #000000;
+      font-family: "Century Gothic";
+      font-size: 1.2rem;
+      line-height: 1rem;
+      text-transform: uppercase;
+      background: #ffea00;
+      padding: 0.5rem 0;
+      margin-bottom: 1rem; }
+  .article .comments {
+    text-align: center;
+    border-bottom: 0.06rem solid #414146; }
+    .article .comments h3 {
+      color: #ffea00;
+      font-family: "Century Gothic";
+      font-size: 1rem;
+      line-height: 1rem;
+      text-transform: uppercase;
+      background: #414146;
+      padding: 0.3rem 0;
+      margin-bottom: 2rem; }
+    .article .comments img {
+      width: 100%;
+      height: 100%; }
+    .article .comments p {
+      text-align: left;
+      margin-left: 1rem; }
+    .article .comments ul {
+      margin-left: 1rem; }
+    .article .comments .sk li {
+      color: #000000;
+      font-family: "Century Gothic";
+      font-size: 1rem;
+      line-height: 1.313rem; }
+  .article .submit-comment {
+    text-align: center;
+    margin-top: 1rem; }
+    .article .submit-comment h3 {
+      color: #ffea00;
+      font-family: "Century Gothic";
+      font-size: 0.8rem;
+      line-height: 1rem;
+      text-transform: uppercase;
+      background: #414146;
+      padding: 0.3rem 0;
+      margin-bottom: 2rem; }
+    .article .submit-comment .input, .article .submit-comment .textarea {
+      width: 100%;
+      color: #414146;
+      font-family: "Century Gothic";
+      font-size: 1rem;
+      line-height: 1.8rem;
+      border: none; }
+    .article .submit-comment .submit {
+      width: 100%;
+      color: #ffffff;
+      font-size: 0.6rem;
+      line-height: 1.8rem;
+      border: 0;
+      border-bottom: 0.2rem solid #ffea00;
+      background: #000000; }
+    .article .submit-comment .text-area {
+      margin: 1rem 0; }
+    .article .submit-comment .name-input {
+      margin: 0.5rem 0; }
+
+.aside .search {
+  background: #414146;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  text-align: center; }
+  .aside .search input {
+    width: 80%;
+    line-height: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    color: #414146;
+    font-family: "Century Gothic";
+    font-size: 1.125rem;
+    line-height: 1.75rem; }
+  .aside .search i {
+    color: #414146;
+    font-size: 1rem;
+    margin-left: -2rem; }
+
+.aside .categories {
+  background: #414146;
+  padding: 1rem;
+  margin: 0 auto; }
+  .aside .categories .row {
+    margin: 0.2rem 0; }
+  .aside .categories h2 {
+    color: #ffea00;
+    font-family: "Century Gothic";
+    font-size: 1.25rem;
+    line-height: 1.313rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem; }
+  .aside .categories i {
+    color: #414146;
+    background: #ffea00;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.7rem;
+    line-height: 1.313rem; }
+  .aside .categories a {
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 0.6rem;
+    line-height: 1.313rem;
+    text-transform: uppercase;
+    margin-left: 0.5rem; }
+
+.aside .archive {
+  background: #414146;
+  padding: 1rem;
+  margin: 0.5rem auto; }
+  .aside .archive .row {
+    margin: 0.2rem 0; }
+  .aside .archive h2 {
+    color: #ffea00;
+    font-family: "Century Gothic";
+    font-size: 1.25rem;
+    line-height: 1.313rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem; }
+  .aside .archive i {
+    color: #414146;
+    background: #ffea00;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.6rem;
+    line-height: 1.313rem; }
+  .aside .archive a {
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 0.6rem;
+    line-height: 1.313rem;
+    text-transform: uppercase;
+    margin-left: 0.1rem; }
+
+.aside .posts {
+  background: #414146;
+  padding: 0.5rem;
+  margin: 1rem auto; }
+
+.aside .row {
+  margin: 0.5rem 0; }
+
+.aside h2 {
+  color: #ffea00;
+  font-family: "Century Gothic";
+  font-size: 1.25rem;
+  line-height: 1.313rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
+
+.aside img {
+  width: 100%;
+  height: 100%; }
+
+.aside h4 {
+  color: #ffffff;
+  font-family: "Century Gothic";
+  font-size: 0.7rem;
+  line-height: 1rem;
+  text-transform: uppercase; }
+
+.aside span {
+  color: #ffea00;
+  font-family: "Century Gothic";
+  font-size: 0.6rem;
+  line-height: 1rem;
+  margin-left: 0.5rem; }
+
+.aside .tags {
+  background: #414146;
+  margin: 1rem auto;
+  padding: 1rem; }
+  .aside .tags li {
+    margin: 0.3rem 0; }
+  .aside .tags a {
+    color: #414146;
+    background: #ffea00;
+    padding: 0.2rem;
+    margin: 0 0.1rem;
+    font-family: "Century Gothic";
+    font-size: 0.7rem;
+    line-height: 1rem;
+    text-transform: uppercase; }
+
+@media screen and (min-width: 576px) {
+  #clients .sliders {
+    max-width: 530px;
+    margin: 1rem auto; }
+  footer .bottom p {
+    font-size: 1rem;
+    line-height: 4rem; }
+  footer .bottom ul li a {
+    font-size: 1rem;
+    line-height: 3rem; }
+  .top h2 {
+    width: 25%; }
+  .portfolio-top h2 {
+    width: 30%; }
+  .portfolio .button {
+    font-size: 0.8rem; }
+  .blog .title h2 {
+    font-size: 0.7rem; }
+  .blog .title span {
+    font-size: 0.7rem;
+    margin-left: 50%; }
+  .blog article h3 {
+    font-size: 1.6rem; }
+  .blog article p {
+    font-size: 1.2rem; }
+  .blog .grid .grid-item {
+    width: 45%; }
+  .aside .categories h2 {
+    font-size: 1.4rem; }
+  .aside .categories i {
+    font-size: 1rem;
+    line-height: 1.4rem; }
+  .aside .categories a {
+    font-size: 1rem; }
+  .aside .archive h2 {
+    font-size: 1.4rem; }
+  .aside .archive i {
+    font-size: 1rem;
+    line-height: 1.4rem; }
+  .aside .archive a {
+    font-size: 1rem;
+    margin-left: 0.5rem; }
+  .aside .posts h2 {
+    font-size: 1.4rem; }
+  .aside .posts img {
+    width: 100%;
+    height: 100%; }
+  .aside .posts h4 {
+    font-size: 1.2rem;
+    line-height: 1.3rem; }
+  .aside .posts span {
+    font-size: 0.9rem; }
+  .aside .tags a {
+    font-size: 1rem;
+    line-height: 1.5rem; } }
+
+@media screen and (min-width: 768px) {
+  #slider .text h3, #slider .text h4 {
+    font-size: 3rem;
+    line-height: 4rem; }
+  #slider .text h3 {
+    width: 70%;
+    margin-top: 3rem; }
+  #slider .text h4 {
+    width: 100%;
+    margin-bottom: 1rem; }
+  #slider .text p {
+    font-size: 1.2rem;
+    width: 60%;
+    margin-bottom: 1rem; }
+  #clients .sliders {
+    max-width: 1200px;
+    margin: 1rem auto; }
+  #content .img .hover {
+    padding-top: 10%; }
+    #content .img .hover a {
+      font-size: 5rem; }
+    #content .img .hover p {
+      font-size: 1rem;
+      line-height: 1rem; }
+  .gridd {
+    position: relative; }
+    .gridd .gridd-item {
+      width: 20rem;
+      height: 20rem;
+      float: left; }
+  .portfolio-top h2 {
+    width: 20%; }
+  .blog .title h2 {
+    font-size: 1.2rem; }
+  .blog .title span {
+    font-size: 0.8rem; }
+  .blog article h3 {
+    font-size: 1.3rem; }
+  .blog article p {
+    font-size: 1rem; }
+  .blog .grid .grid-item {
+    width: 40%; }
+  footer .bottom p {
+    font-size: 0.6rem; } }
+
+@media screen and (min-width: 992px) {
+  .top h2 {
+    width: 25%; }
+  .article .post .img-post h2 {
+    font-size: 1rem; }
+  .article .submit-comment .name-input {
+    margin: 0; }
+  .blog .title h2 {
+    font-size: 1rem; }
+  .blog .title span {
+    font-size: 0.6rem; }
+  .blog article h3 {
+    font-size: 1.3rem; }
+  .blog article p {
+    font-size: 1rem; }
+  .blog .grid .grid-item {
+    width: 48%; }
+  .blog .pagination {
+    padding: 1rem 0;
+    margin: 1rem 0; }
+    .blog .pagination a, .blog .pagination li {
+      color: #414146;
+      font-family: "Century Gothic";
+      font-size: 1rem;
+      line-height: 0.7rem;
+      text-transform: uppercase; }
+    .blog .pagination li {
+      margin: 0 0.5rem; }
+    .blog .pagination .three {
+      padding: 0.3rem;
+      background: #ffea00;
+      margin-top: -0.3rem; }
+  .aside .categories h2 {
+    font-size: 1.2rem; }
+  .aside .categories i {
+    font-size: 0.9rem;
+    line-height: 1.1rem; }
+  .aside .categories a {
+    font-size: 0.7rem; }
+  .aside .archive h2 {
+    font-size: 1.2rem; }
+  .aside .archive i {
+    font-size: 0.9rem;
+    line-height: 1.1rem; }
+  .aside .archive a {
+    font-size: 0.6rem;
+    margin-left: 0.1rem; }
+  .aside .posts h2 {
+    font-size: 1.2rem; }
+  .aside .posts img {
+    width: 100%;
+    height: 100%; }
+  .aside .posts h4 {
+    font-size: 0.7rem;
+    line-height: 1rem; }
+  .aside .posts span {
+    font-size: 0.5rem; }
+  .aside .tags a {
+    font-size: 0.9rem; }
+  footer .bottom p {
+    font-size: 0.8rem;
+    line-height: 4rem; }
+  footer .bottom ul li a {
+    font-size: 1rem;
+    line-height: 3rem; } }
+
+@media screen and (min-width: 1200px) {
+  .portfolio-top h2 {
+    width: 15%; }
+  .blog .grid .grid-item {
+    width: 45%; } }
